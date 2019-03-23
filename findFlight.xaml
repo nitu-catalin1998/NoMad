@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="514,4122" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="536,5038" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -254,7 +254,7 @@
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="f4d438e636f4f9ccf81c9ec24a17a704" Selector="[&quot;&lt;webctrl parentid='*-removeLeg&quot;+i.ToString+&quot;' tag='use' /&gt;&quot;]" WaitForReady="INTERACTIVE" />
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,106" sap2010:WorkflowViewState.IdRef="Click_19" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+            <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="4000" DisplayName="Click 'SVG'" sap:VirtualizedContainerService.HintSize="388,106" sap2010:WorkflowViewState.IdRef="Click_19" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -269,7 +269,7 @@
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="de78c5a899c07b12ed7ef713429cdf43" Selector="&lt;webctrl parentid='*-submit' parentname='mc-searchform' tag='svg' /&gt;" WaitForReady="COMPLETE" />
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN  onoc-sortType-sta...'" sap:VirtualizedContainerService.HintSize="388,106" sap2010:WorkflowViewState.IdRef="Click_20" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+            <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="Click 'SPAN  onoc-sortType-sta...'" sap:VirtualizedContainerService.HintSize="388,106" sap2010:WorkflowViewState.IdRef="Click_20" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -284,7 +284,7 @@
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="94a3684750f3005b26a7e9314d82acd6" Selector="&lt;webctrl id='*-sortType-status' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'LI  onoc-sortType_optio...'" sap:VirtualizedContainerService.HintSize="388,106" sap2010:WorkflowViewState.IdRef="Click_21" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+            <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="Click 'LI  onoc-sortType_optio...'" sap:VirtualizedContainerService.HintSize="388,106" sap2010:WorkflowViewState.IdRef="Click_21" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
